@@ -15,7 +15,7 @@ app = FastAPI(
 
 # buscar o .env
 # Se não encontrar, ele usa uma string vazia para não quebrar o código ao iniciar
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://usuario:senha@host:5432/postgres")
+DATABASE_URL = os.getenv("DATABASE_URL", "https://cybthwnqquqoxxqnqgrf.supabase.co/rest/v1/Chamados")
 
 def conectar_banco():
     # Conecta no PostgreSQL usando a URL direta do supabase

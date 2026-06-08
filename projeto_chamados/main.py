@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 from supabase import create_client, Client
 
-# Carrega as variáveis do ficheiro oculto .env (Segurança da Informação)
+# Carrega as variáveis do ficheiro .env
 load_dotenv()
 
 # Configuração de Logs (Requisito de Qualidade da Governaça de TI)

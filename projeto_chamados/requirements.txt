@@ -1,5 +1,5 @@
 fastapi
 uvicorn
 requests
-pymysql
+psycopg2-binary
 cryptography

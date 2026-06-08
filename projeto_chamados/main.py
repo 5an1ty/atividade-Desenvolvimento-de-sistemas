@@ -58,7 +58,7 @@ def criar_chamado(chamado: ChamadoSchema):
         
         # O método .insert() envia os dados. O .execute() roda a query na API do Supabase.
         # Nota: Certifique-se de que o nome da tabela no seu banco é 'chamados' ou 'Chamados'.
-        response = supabase.table("chamados").insert(dados_chamado).execute()
+        response = supabase.table("Chamados").insert(dados_chamado).execute()
         
         # Pegando o ID do registro inserido retornado pelo Supabase
         chamado_id = response.data[0]['id']

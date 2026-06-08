@@ -13,7 +13,7 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 app = FastAPI(
-    title="Sistema de Chamados Internos - MVP",
+    title="Sistema de Chamados Internos - MVP :-)",
     description="API REST ligada ao Supabase e integrada com a API do ViaCEP."
 )
 
